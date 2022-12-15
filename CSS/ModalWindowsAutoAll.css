@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'GiloryBlack';
+    src: url("materials/GiloryBlack.ttf");
+}   
+
+.open-window-add_currency {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+}
+
+.open-window-add_currency-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    padding: 20px 20px;
+    background-color: RGB(62, 75, 82);
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.close-window-add_currency {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.open-window-add_currency:target {
+    display: block;
+}
+
+
+.open-window-add_currency-input1 {
+    border: none;
+    background: none;
+    color: #d3d3d3;
+    text-align: left;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: GiloryBlack, serif;
+    padding-right: -50;
+    height: 30px;
+    width: 250px;
+}
+
+.open-window-add_currency-content-container-text {
+    color: #d3d3d3;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+.open-window-add_currency-content-container-texte {
+    color: #d3d3d3;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.open-window-add_currency-input {
+    font-size: 1em;
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: none;
+    border-color: #d3d3d3;
+    color: #d3d3d3;
+    font-family: GiloryBlack, serif;
+}
+
+.open-window-add_currency-input-option {
+    font-family: GiloryBlack, serif;
+    color: #d3d3d3;
+    background-color: RGB(62, 75, 82);
+}
+
+.open-window-add_currency-content-header {
+    text-align: center;
+    padding: 20px 10px;
+    color: #d3d3d3;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #d3d3d3;
+    font-size: 2em;
+    font-family: GiloryBlack, serif;
+}
+
+.close-window-add_currency {
+    color: #d3d3d3;
+}
+
+
+/*___________________________________________*/
+
+
